@@ -9,10 +9,7 @@ class MainTeams extends React.Component {
 
   componentDidMount() {
     var pathname = window.location.pathname;
-    if(pathname==='/'){
-      pathname = pathname + "2";
-      return pathname;
-    }
+    pathname = pathname === '/'? "/2" : pathname;
     this.props.sendparam(pathname);
   }
 
