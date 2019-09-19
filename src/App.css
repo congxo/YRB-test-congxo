@@ -1,0 +1,191 @@
+html,body{	
+	width: 100%;
+	min-height: 100%;
+    margin: 0;  
+    background-color:#1f427b;
+    
+}
+.pageImg{
+    
+    background-image:url(./image/image.png);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0
+
+}
+.container{
+   margin: 0;
+   padding:50px 0 200px 0;
+   width: 950px;
+   display: inline-block;
+       
+}
+.header{
+ position: relative;
+ display: inline-block;
+}
+.banerImage{
+    position: relative;
+    display: inline-block;
+    padding: 10px 12px;
+}
+.baner{
+    position: absolute;
+    left: 50px;
+    top:20px;
+    text-align: center
+}
+.banerContent0{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    float: left;
+    
+    line-height:60px;
+    padding:0 0 0 30px;
+    max-height: 80px;
+    font-size: 19px;
+    letter-spacing: -1px;
+}
+.banerContent{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    float: left;
+    
+    line-height:60px;
+    padding:0 0 0 15px;
+    max-height: 80px;
+    font-size: 19px;
+    letter-spacing: -1px;
+}
+.baner2{
+    position: absolute;
+    top: 2px;
+    left: 50px;
+}
+.banerContent1{
+    
+    display: block;
+    float: left;
+    padding: 0 ;
+}
+.banerContent2{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    float: left;
+    line-height:100px;   
+    max-height: 80px;
+    font-size: 19px;
+    letter-spacing: -1px;
+}
+.banerContent3{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    float: left;
+    padding:  0 0 0 25px;
+    line-height:100px;   
+    max-height: 80px;
+    font-size: 19px;
+    letter-spacing: -1px;
+}
+.baner4{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.clearFloat{
+    clear: both;
+}
+
+
+
+.main{
+    position: relative;
+    display: inline-block;
+    width: 910px;
+    text-align: left;
+    left: -2px;
+}
+
+.topTable{
+    background-color: #0f1aa9;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+.topTable p{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.table{
+    
+    width: 100%;
+  
+    
+}
+ul li:nth-child(4n+1),ul li:nth-child(4n+2) {
+    background: #CCC;
+  }
+  ul li:nth-child(4n+3), ul li:nth-child(4n+4) {
+    background: #DDD;
+  }
+  li{
+    display:block;
+    float:left;
+    width:50%;
+    
+  }
+
+ul{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li h6{
+    display: table;
+    margin:15px 0 5px  15px ;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+li h1{
+    display: table;
+    margin: 0 0 0 15px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+li p{
+    display: inline-block;
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0 20px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.tableColor{
+    background-color: #e8e8e8;
+    
+}
+
+li:nth-child(even){
+    padding-left:5%;
+    width: 45%;
+}
